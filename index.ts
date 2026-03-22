@@ -1,5 +1,5 @@
-import type { IPlugin } from "../../@types/IPlugin.ts";
-import * as dpath from "@std/path";
+import type { IPlugin } from "jsr:@ursamu/ursamu";
+import * as dpath from "jsr:@std/path";
 import { registerFingerCommands } from "./finger.ts";
 import { registerOocTalkCommands } from "./ooc.ts";
 import { registerNameColorCommands } from "./namecolor.ts";

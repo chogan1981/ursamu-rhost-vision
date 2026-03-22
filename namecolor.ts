@@ -14,10 +14,10 @@
  * WHO, +where, +finger, etc.
  */
 
-import { dbojs } from "../../services/Database/index.ts";
-import type { IDBOBJ } from "../../@types/IDBObj.ts";
-import { addCmd } from "../../services/commands/index.ts";
-import { send } from "../../services/broadcast/index.ts";
+import { dbojs } from "jsr:@ursamu/ursamu";
+import type { IDBOBJ } from "jsr:@ursamu/ursamu";
+import { addCmd } from "jsr:@ursamu/ursamu";
+import { send } from "jsr:@ursamu/ursamu";
 
 // ============================================================================
 // COLOR MAPPING

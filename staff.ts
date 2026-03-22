@@ -1,5 +1,5 @@
-import { addCmd } from "../../services/commands/cmdParser.ts";
-import type { IUrsamuSDK, IDBObj } from "../../@types/UrsamuSDK.ts";
+import { addCmd } from "jsr:@ursamu/ursamu";
+import type { IUrsamuSDK, IDBObj } from "jsr:@ursamu/ursamu";
 import { header, footer, divider, padLeft, padRight } from "./layout.ts";
 import { defaultTheme, customTheme } from "./theme.ts";
 

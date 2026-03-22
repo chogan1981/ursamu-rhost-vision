@@ -1,4 +1,4 @@
-import { IUrsamuSDK, IDBObj } from "../../@types/UrsamuSDK.ts";
+import { IUrsamuSDK, IDBObj } from "jsr:@ursamu/ursamu";
 
 /**
  * Rhost Vision: look.ts

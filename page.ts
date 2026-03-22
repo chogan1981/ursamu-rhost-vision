@@ -1,4 +1,4 @@
-import { IUrsamuSDK } from "../../@types/UrsamuSDK.ts";
+import { IUrsamuSDK } from "jsr:@ursamu/ursamu";
 
 /**
  * Rhost Vision: page.ts
