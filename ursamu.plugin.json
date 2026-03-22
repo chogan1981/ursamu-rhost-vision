@@ -1,7 +1,9 @@
 {
   "name": "rhost-vision",
-  "version": "1.0.0",
-  "description": "Rhost-style room display for Price of Power",
+  "version": "1.1.0",
+  "description": "Rhost-style formatting — look, who, where, page, mail, score, examine, inventory, +finger, +staff, ooc, +namecolor",
   "author": "Jupiter @ The Price Of Power",
-  "license": "MIT"
+  "contributors": ["lcanady (https://github.com/lcanady)"],
+  "license": "MIT",
+  "ursamu": ">=1.8.0"
 }
