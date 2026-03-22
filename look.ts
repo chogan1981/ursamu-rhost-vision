@@ -1,4 +1,4 @@
-import { IUrsamuSDK, IDBObj } from "../../@types/UrsamuSDK.ts";
+import { IUrsamuSDK, IDBObj } from "jsr:@ursamu/ursamu";
 
 /**
  * Rhost Vision: look.ts
@@ -26,15 +26,15 @@ function centerLine(text: string, char: string, width: number): string {
 }
 
 function headerLine(text: string): string {
-  return " " + centerLine(text, "=", WIDTH);
+  return centerLine(text, "=", WIDTH);
 }
 
 function sectionLine(text: string): string {
-  return " " + centerLine(text, "-", WIDTH);
+  return centerLine(text, "-", WIDTH);
 }
 
 function footerLine(): string {
-  return " " + "=".repeat(WIDTH);
+  return "=".repeat(WIDTH);
 }
 
 /** Measure visual width, stripping color codes. */

@@ -1,4 +1,4 @@
-import type { IUrsamuSDK } from "../../@types/UrsamuSDK.ts";
+import type { IUrsamuSDK } from "jsr:@ursamu/ursamu";
 
 /**
  * Rhost Vision: inventory.ts
